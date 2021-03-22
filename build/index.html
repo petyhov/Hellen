@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Placeholder title</title>
+    <!-- inject:css -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- endinject -->
+  </head>
+
+  <body>
+    <!-- Сюда будет всталена ссылка на файл скриптов -->
+    <!-- inject:js -->
+    <!-- endinject -->
+    <header class="header">
+      <div class="container">
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="#">
+              <img src="images/logo.png" alt="" />
+            </a>
+          </li>
+          <li class="header__item">
+            <ul class="header__link-list">
+              <li class="link"><a href="">Программа обучения</a></li>
+              <li class="link"><a href="">о нас</a></li>
+              <li class="link"><a href="">варианты обучения</a></li>
+              <li class="link"><a href="">контакты</a></li>
+            </ul>
+          </li>
+          <li class="header__item">
+            <button class="header__button">консультация по телефону</button>
+            <button class="burger">
+              <span class="burger__item"></span>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="first-section">
+        <div class="container">
+          <div class="wrap">
+            <h1 class="first-section__h1">
+              Комплексная подготовка к ВНО по английскому языку
+            </h1>
+            <p class="first-section__p third-color">Просто не будет.</p>
+            <p class="first-section__p">
+              Но ты гарантировано наберешь
+              <span class="second-color">+25 баллов</span>
+            </p>
+            <button class="first-section__button">хочу на бесплатное занятие</button>
+          </div>
+          <picture>
+            <source
+              srcset="images/first_section/photo_first_section_768.png"
+              media="(min-width: 768px) and (max-width: 1279px)"
+            />
+            <source
+              srcset="images/first_section/photo_first_section_1280.png"
+              media="(min-width: 1280px) and (max-width: 1679px)"
+            />
+            <source
+              srcset="images/first_section/photo_first_section_1680.png"
+              media="(min-width: 1680px)"
+            />
+            <img src="images/first_section/photo_first_section_320.png" alt="" />
+          </picture>
+        </div>
+      </section>
+      <section class="second-section">
+        <div class="container">
+          <ul class="second-section__list">
+            <li class="second-section__item">
+              <div class="second-section__wrap">
+                <div class="second-section__svg">
+                  <svg>
+                    <use href="images/sprite.svg#icon-Student"></use>
+                  </svg>
+                </div>
+                <div class="border-decorate"></div>
+              </div>
+              <p>Адаптированная авторская программа ВНО</p>
+            </li>
+            <li class="second-section__item">
+              <div class="second-section__wrap">
+                <div class="second-section__svg">
+                  <svg>
+                    <use href="images/sprite.svg#icon-Mobile_Learning"></use>
+                  </svg>
+                </div>
+                <div class="border-decorate"></div>
+              </div>
+              <p>Современные методики обучения</p>
+            </li>
+            <li class="second-section__item">
+              <div class="second-section__wrap">
+                <div class="second-section__svg">
+                  <svg>
+                    <use href="images/sprite.svg#icon-dollar"></use>
+                  </svg>
+                </div>
+                <div class="border-decorate"></div>
+              </div>
+              <p>Финансовая гарантия результата</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="third-section">
+        <div class="back-color"></div>
+        <div class="container">
+          <h2 class="h2">
+            Главные проблемы учеников<br />
+            на English ВНО, которые мы<br />
+            <span class="second-color">помогаем</span> решить
+          </h2>
+          <ul class="list">
+            <li class="item">
+              <p class="item__number"></p>
+              <p class="item__text">
+                Незнание грамматики
+              </p>
+            </li>
+            <li class="item">
+              <p class="item__number"></p>
+              <p class="item__text">
+                Неумение воспринимать<br />
+                устную английскую речь
+              </p>
+            </li>
+            <li class="item">
+              <p class="item__number"></p>
+              <p class="item__text">
+                Скупой словарный запас<br />
+                для написания сочинения
+              </p>
+            </li>
+            <li class="item">
+              <p class="item__number"></p>
+              <p class="item__text">Подготовка в одиночку</p>
+            </li>
+            <li class="item">
+              <p class="item__number"></p>
+              <p class="item__text">
+                Отсутствие единого<br />
+                ресурса знаний
+              </p>
+            </li>
+            <li class="item">
+              <p class="item__number"></p>
+              <p class="item__text">
+                Недостаток самоорганизации<br />
+                и лень
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="four-section">
+        <div class="container">
+          <h2 class="four-section__h2">Как мы это делаем</h2>
+          <ul class="four-section__list">
+            <li class="four-section__card">
+              <div class="four-section__svg">
+                <svg>
+                  <use href="images/sprite.svg#icon-study_program"></use>
+                </svg>
+              </div>
+              <h3 class="card__h3">
+                Адаптированная программа<br />
+                подготовки к ВНО
+              </h3>
+              <p class="card__p">
+                Ты будешь изучать грамматику<br />
+                и лексику одновременно.<br />
+                И ты научишься писать сочинения.
+              </p>
+            </li>
+            <li class="four-section__card">
+              <div class="four-section__svg">
+                <svg>
+                  <use href="images/sprite.svg#icon-Mobile_Learning"></use>
+                </svg>
+              </div>
+              <h3 class="card__h3">
+                Аудиторное<br />
+                и онлайн-обучение
+              </h3>
+              <p class="card__p">
+                Учитель поможет не только<br />
+                в аудитории, но и во время домашней<br />
+                подготовки. Родители могут<br />
+                участвовать в чате при желании.
+              </p>
+            </li>
+            <li class="four-section__card">
+              <div class="four-section__svg">
+                <svg>
+                  <use href="images/sprite.svg#icon-open_book"></use>
+                </svg>
+              </div>
+              <h3 class="card__h3">
+                Привычка читать<br />
+                на английском языке
+              </h3>
+              <p class="card__p">
+                Статьи из источников, которые<br />
+                используются при разработке<br />
+                Инастоящего ВНО, будут приходить<br />
+                на телефон дважды в неделю.
+              </p>
+            </li>
+            <li class="four-section__card">
+              <div class="four-section__svg">
+                <svg>
+                  <use href="images/sprite.svg#icon-global_communication"></use>
+                </svg>
+              </div>
+              <h3 class="card__h3">
+                Психологическая<br />
+                поддержка
+              </h3>
+              <p class="card__p">
+                Мы научим тебя методикам<br />
+                прохождения тестирований, умению<br />
+                планировать свою подготовку<br />
+                уверенности в себе
+              </p>
+            </li>
+            <li class="four-section__card">
+              <div class="four-section__svg">
+                <svg>
+                  <use href="images/sprite.svg#icon-Student"></use>
+                </svg>
+              </div>
+              <h3 class="card__h3">
+                Обучение по автроским<br />
+                пособиям
+              </h3>
+              <p class="card__p">
+                Тебе не нужно тратить время на <br />
+                самостоятельный поиск материала<br />
+                и ничего покупать дополнительно.<br />
+                Мы составили 2 пособия для тебя.
+              </p>
+            </li>
+            <li class="four-section__card">
+              <div class="four-section__svg">
+                <svg>
+                  <use href="images/sprite.svg#icon-Audio_Book"></use>
+                </svg>
+              </div>
+              <h3 class="card__h3">
+                Умение воспринивать <br />
+                устную английскую речь
+              </h3>
+              <p class="card__p">
+                “F.R.I.E.N.D.S” тебе не помогут.<br />
+                Ты будешь регулярно слушать и<br />
+                разбирать аудиозаписи в соответствии<br />
+                с изучаемой лексикой.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="five-section">
+        <div class="container">
+          <picture>
+            <source
+              srcset="images/five_section/photo_five_section_768.png"
+              media="(min-width: 768px) and (max-width: 1279px)"
+            />
+            <source
+              srcset="images/five_section/photo_five_section_1280.png"
+              media="(min-width: 1280px) and (max-width: 1679px)"
+            />
+            <source
+              srcset="images/five_section/photo_five_section_1680.png"
+              media="(min-width: 1680px)"
+            />
+            <img src="images/five_section/photo_five_section_320.png" alt="" />
+          </picture>
+          <h2 class="five-section__h2">Наша программа</h2>
+          <ul class="five-section__list-of-semester">
+            <li class="five-section__item">
+              <h3>1 семестр</h3>
+              <ul class="list-of-thems">
+                <li class="list-of-thems__items">
+                  <h4>Grammar</h4>
+                  <p class="items__p">Nouns & Articles</p>
+                  <p class="items__p">Adjectives & Adverb</p>
+                </li>
+                <li class="list-of-thems__items">
+                  <h4>Vocabulary</h4>
+                  <p class="items__p">Family & Relations</p>
+                  <p class="items__p">People & Society</p>
+                </li>
+              </ul>
+            </li>
+            <li class="five-section__item">
+              <h3>2 семестр</h3>
+              <ul class="list-of-thems">
+                <li class="list-of-thems__items">
+                  <h4>Grammar</h4>
+                  <p class="items__p">Pronouns</p>
+                  <p class="items__p">Active Voice</p>
+                  <p class="items__p">Passive Voice</p>
+                </li>
+                <li class="list-of-thems__items">
+                  <h4>Vocabulary</h4>
+                  <p class="items__p">Home</p>
+                  <p class="items__p">School</p>
+                  <p class="items__p">Work</p>
+                </li>
+              </ul>
+            </li>
+            <li class="five-section__item">
+              <h3>3 семестр</h3>
+              <ul class="list-of-thems">
+                <li class="list-of-thems__items">
+                  <h4>Grammar</h4>
+                  <p class="items__p">Modal verbs</p>
+                  <p class="items__p">Infinitive</p>
+                  <p class="items__p">Gerund</p>
+                  <p class="items__p">Participle: 1, 2</p>
+                </li>
+                <li class="list-of-thems__items">
+                  <h4>Vocabulary</h4>
+                  <p class="items__p">Travel & Tourism</p>
+                  <p class="items__p">Culture & Free Time</p>
+                  <p class="items__p">Sport</p>
+                </li>
+                <li class="list-of-thems__items">
+                  <h4>Writing</h4>
+                  <p class="items__p">Informal Letter</p>
+                </li>
+              </ul>
+            </li>
+            <li class="five-section__item">
+              <h3>4 семестр</h3>
+              <ul class="list-of-thems">
+                <li class="list-of-thems__items">
+                  <h4>Grammar</h4>
+                  <p class="items__p">Clauses: Conditional and Wishes</p>
+                  <p class="items__p">Direct / Reported speech</p>
+                  <p class="items__p">Preposition</p>
+                  <p class="items__p">Conjunction</p>
+                  <p class="items__p">Numeral</p>
+                </li>
+                <li class="list-of-thems__items">
+                  <h4>Vocabulary</h4>
+                  <p class="items__p">Healthy Living</p>
+                  <p class="items__p">Nature & Environment</p>
+                  <p class="items__p">Money</p>
+                </li>
+                <li class="list-of-thems__items">
+                  <h4>Writing</h4>
+                  <p class="items__p">Formal Letter</p>
+                </li>
+              </ul>
+            </li>
+            <li class="five-section__item">
+              <h3>5 семестр</h3>
+              <ul class="list-of-thems">
+                <li class="list-of-thems__items">
+                  <h4></h4>
+                  <p class="items__p">Revision</p>
+                  <p class="items__p">Tests</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          </div>
+        </div>
+      </section>
+      <section class="six-section">
+        <div class="back-color"></div>
+        <div class="container">
+          <h2 class="h2">
+            Почему нас<br class="mob_br" />
+            выбирают
+          </h2>
+          <ul class="list">
+            <li class="item">
+              <p class="item__number"></p>
+              <p class="item__text">
+                Обучение в малых<br class="tab_br" />
+                командах
+              </p>
+            </li>
+            <li class="item">
+              <p class="item__number"></p>
+              <p class="item__text">
+                Визуализированные<br />
+                конспекты
+              </p>
+            </li>
+            <li class="item">
+              <p class="item__number"></p>
+              <p class="item__text">
+                Каждое занятие имеет цель и конкретный результат
+              </p>
+            </li>
+            <li class="item">
+              <p class="item__number"></p>
+              <p class="item__text">
+                Реальные результаты<br />
+                преподавателя
+              </p>
+            </li>
+            <li class="item">
+              <p class="item__number"></p>
+              <p class="item__text">
+                Программа курса<br />
+                соответствует требованиям<br />
+                МОН Украины
+              </p>
+            </li>
+            <li class="item">
+              <p class="item__number"></p>
+              <p class="item__text">
+                Набор команд по уровням<br />
+                знаний
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="seven-section">
+        <div class="container">
+          <h2 class="seven-section__h2">Преподаватель</h2>
+          <div class="wrap1">
+            <picture>
+              <source
+              srcset="images/seven_section/teacher768.jpg"
+              media="(min-width: 768px) and (max-width: 1279px)"
+            />
+            <source
+              srcset="images/seven_section/teacher1280.jpg"
+              media="(min-width: 1280px)"
+            />
+              <img src="images/seven_section/teacher320.jpg" alt="" />
+            </picture>
+            <div class="wrap2">
+              <h3>Елена Морева</h3>
+              <ul class="seven-section__list">
+                <li class="seven-section__item">
+                  <p class="item__p">Опыт подготовки учеников к ВНО - 6 лет</p>
+                </li>
+                <li class="seven-section__item">
+                  <p class="item__p">
+                    Собственный результат сдачи ВНО - 197 баллов 2 года подряд
+                  </p>
+                </li>
+                <li class="seven-section__item">
+                  <p class="item__p">
+                    Сдала на отлично международный аналог ВНО - Кембриджский PET
+                    (Preliminary English Test)
+                  </p>
+                </li>
+              </ul>
+              <p class="seven-section__p third-color">
+                Высшее образование получила в Институте международных отношений НАУ по
+                специальности переводчик - аналитик.
+              </p>
+              <p class="seven-section__p third-color">
+                В свободное время проходит курсы от лучших университетов мира по
+                эффективному преподаванию и методикам написания сочинений.
+              </p>
+              <p class="seven-section__p third-color">
+                В числе пройденных: English Grammar and Essay Writing (Berkeley),
+                English Grammar&Style (The University of Queesland), How to Write an
+                Essay (Berkeley), Academic and Business Writing (Berkeley), The Art of
+                Teaching (GEMS education), Powerful Tools for Teaching and Learning
+                (University of Houston).
+              </p>
+              <p class="seven-section__p second-color">
+                Cambrige English Entry Level Certificate
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="eight-section clearfix">
+        <h2 class="eight-section__h2">Мы гарантируем</h2>
+        <div class="container">
+          <ul class="eight-section__list">
+            <li class="eight-section__item">
+              <p class="eight-section__p">
+                Ты сдашь ВНО минимум на 25 баллов лучше, чем на первом пробном
+                тестировании. Иначе мы вернем деньги.<span class="second-color"
+                  >*</span
+                >
+              </p>
+            </li>
+            <li class="eight-section__item">
+              <p class="eight-section__p">
+                Ты научишься писать сочинения минимум на 10 баллов из 14.<span
+                  class="second-color"
+                >
+                  В то время как 20% учеников получили за сочинение 0.</span
+                >
+              </p>
+            </li>
+            <li class="eight-section__item">
+              <p class="eight-section__p">
+                Ты будешь заниматься в своем районе. Мы выберем место проведения
+                занятий после формирования команд.
+              </p>
+            </li>
+            <li class="eight-section__item">
+              <p class="eight-section__p">
+                Команды будут сформированы, исходя из начального уровня учеников. Мы
+                учитываем особенности каждого ученика.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="nine-section">
+        <div class="container">
+          <h2 class="nine-section__h2">Отзывы наших выпускников</h2>
+          <div class="nine-section__card arrows">
+            <div class="nine-section__wrap1">
+              <picture>
+                <source
+                  srcset="images/girls/first1280.png"
+                  media="(min-width: 1280px)"
+                />
+                <img src="images/girls/first320.png" alt="" />
+              </picture>
+              <svg class="nine-section__svg">
+                <use href="images/sprite.svg#icon-vk"></use>
+              </svg>
+            </div>
+            <div class="nine-section__wrap2">
+              <h3 class="nine-section__h3 second-color">Тоня Кучеровская</h3>
+              <p class="nine-section__first-p third-color">
+                Выпуск 2015-го года, Національний університет біоресурсів<br />
+                і природокористування України
+              </p>
+              <p class="nine-section__second-p mob_br">
+                За короткий час занять з Оленою я опанувала граматику і поповнила свій
+                зовсім пустий словниковий запас. З першого ж заняття я зрозуміла, що
+                знаходжуся у своїй тарілці ...<span class="second-color">
+                  Читать дальше</span
+                >
+              </p>
+              <p class="nine-section__second-p tab_br">
+                За короткий час занять з Оленою я опанувала граматику і поповнила свій
+                зовсім пустий словниковий запас. З першого ж заняття я зрозуміла, що
+                знаходжуся у своїй тарілці. Ми з Оленою стали друзями, тому що її
+                справді хвилювала моя успішність. Вона стала для мене авторитетом,
+                проте я не тремтіла на уроках, маючи страх зробити найменшу помилку.
+                Зараз я можу похизуватись тим, що я студен ...<span
+                  class="second-color"
+                >
+                  Читать дальше</span
+                >
+              </p>
+            </div>
+          </div>
+          <div class="nine-section__photo-wrap arrows">
+            <img src="images/girls/second.png" alt="" />
+            <img src="images/girls/third.png" alt="" />
+            <img src="images/girls/fourth.png" alt="" />
+            <img class="dntab" src="images/girls/fiveth.png" alt="" />
+            <img class="dntab" src="images/girls/sixth.png" alt="" />
+            <img class="dntab" src="images/girls/seventh.png" alt="" />
+            <img class="dntab" src="images/girls/eigth.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="ten-section">
+        <div class="container">
+          <h2 class="ten-section__h2">
+            Регистрация на <span class="second-color"> бесплатную</span> телефонную
+            <span class="second-color">консультацию</span>
+            по нюансам ЗНО<br />
+            по английскому языку
+          </h2>
+          <p class="ten-section__p">
+            Оставь заявку на участие в
+            <span class="second-color">бесплатном занятии.</span> С вами свяжется
+            консультант и ответит на вопросы.
+          </p>
+          <form class="ten-section__form" action="#" method="get">
+            <input
+              class="ten-section__input"
+              type="text"
+              name="name"
+              placeholder="Имя*"
+              required
+            />
+            <input
+              class="ten-section__input"
+              type="tel"
+              name="tel"
+              placeholder="Телефон*"
+              required
+            />
+            <button class="ten-section__button" type="submit">
+              хочу на бесплатное занятие
+            </button>
+          </form>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__wrap">
+            <div class="svg-wrap">
+              <svg>
+                <use href="images/sprite.svg#icon-call"></use>
+              </svg>
+            </div>
+            <a href="tel:+380000000000">+38 (000) 000 00 00</a>
+          </div>
+          <div class="broke"></div>
+          <a class="instagram" href="#">
+              <img src="images/footer/instagram.png" alt="" />
+          </a>
+          <a class="logo" href="#">
+            <img src="images/logo.png" alt="" />
+          </a>
+        </div>
+        <div class="copyright">
+            <div class="container">
+            <p class="copyright__p">&copy; Все права защищены, 2019</p>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

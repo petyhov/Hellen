@@ -1,0 +1,11 @@
+@mixin font-settings($size, $weight, $height) {
+    font-size: $size;
+    font-weight: $weight;
+    line-height: $height;
+  }
+  @mixin svg-wrap($weight, $height) {
+    display: block;
+    margin: 0 auto;
+    width: $weight;
+    height: $height;
+  }

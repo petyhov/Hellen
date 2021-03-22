@@ -1,0 +1,117 @@
+.eight-section {
+  background-color: #f1f1f1;
+  @media (min-width: 768px) {
+    background-color: transparent;
+  }
+  @extend %margin-reset;
+  .container {
+    position: relative;
+  }
+  h2 {
+    @include font-settings(20px, 800, 1.5);
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 23px;
+    @media (min-width: 768px) {
+      font-size: 26px;
+    }
+    @media (min-width: 1280px) {
+      font-size: 42px;
+      padding-bottom: 34px;
+    }
+    @media (min-width: 1680px) {
+      font-size: 46px;
+      padding-bottom: 42px;
+    }
+  }
+  &__list {
+    @extend %no-list;
+    padding-top: 25px;
+    padding-bottom: 26px;
+    @media (min-width: 768px) {
+      padding-top: 31px;
+      padding-bottom: 31px;
+      background-color: #f1f1f1;
+    }
+    @media (min-width: 1280px) {
+      padding-top: 46px;
+      padding-bottom: 46px;
+    }
+    @media (min-width: 1680px) {
+      padding-top: 59px;
+      padding-bottom: 55px;
+    }
+    p {
+      @include font-settings(11px, 500, 1.8);
+      @media (min-width: 1280px) {
+        @include font-settings(18px, 500, 1.6);
+      }
+      @media (min-width: 1280px) {
+        font-size: 20px;
+      }
+      &::before {
+        content: '';
+        background-image: url(../images/fire.svg);
+        display: block;
+        width: 13px;
+        height: 18px;
+        background-size: 13px 18px;
+        position: absolute;
+        left: 0;
+        background-size: cover;
+        z-index: 1;
+        @media (min-width: 768px) {
+          left: 61px;
+        }
+        @media (min-width: 1280px) {
+          left: 116px;
+          width: 20px;
+          height: 27px;
+          background-size: 20px 27px;
+        }
+        @media (min-width: 1680px) {
+          left: 92px;
+        }
+      }
+    }
+  }
+  &__item {
+    padding-left: 26px;
+    @media (min-width: 768px) {
+      padding-left: 97px;
+    }
+    @media (min-width: 1280px) {
+      padding-left: 172px;
+    }
+    @media (min-width: 1280px) {
+      padding-left: 149px;
+    }
+    position: relative;
+    &:not(:last-child) {
+      margin-bottom: 20px;
+      @media (min-width: 768px) {
+        margin-bottom: 33px;
+      }
+      &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 5px;
+        top: 3px;
+        width: 1px;
+        height: calc(100% + 20px);
+        background-image: url(../images/eight_section/line-bg.png);
+        @media (min-width: 768px) {
+          left: 66px;
+          height: calc(100% + 33px);
+        }
+        @media (min-width: 1280px) {
+          left: 125px;
+        }
+        @media (min-width: 1680px) {
+          left: 101px;
+        }
+      }
+    }
+  }
+}

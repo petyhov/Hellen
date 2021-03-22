@@ -1,0 +1,102 @@
+.footer {
+  @extend %margin-reset;
+  padding-top: 34px;
+  @media (min-width: 768px) {
+    padding-top: 42px;
+  }
+  @media (min-width: 1280px) {
+    padding-top: 56px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media (min-width: 768px) {
+      flex-direction: row;
+      padding-bottom: 41px;
+    }
+    @media (min-width: 1280px) {
+      padding-bottom: 52px;
+    }
+  }
+  &__wrap {
+    a {
+      @include font-settings(18px, 600, 1.5);
+      text-decoration: none;
+      color: $font-color;
+      @media (min-width: 768px) {
+        font-size: 20px;
+      }
+      @media (min-width: 1280px) {
+        font-size: 28px;
+      }
+    }
+    margin-bottom: 25px;
+    @media (min-width: 768px) {
+      margin-bottom: 0;
+      order: 1;
+      margin-right: 30px;
+    }
+  }
+  .svg-wrap {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    fill: $secondary-color;
+  }
+  .broke{
+    display: inline-block;
+    width: 1px;
+    height: 29px;
+    display: none;
+    order: 1;
+    background-color: #e0e0e0;
+    @media(min-width: 768px){
+      display: inline-block;
+      margin-right: 30px;
+    }
+  }
+  .instagram {
+    width: 37px;
+    height: 37px;
+    margin-bottom: 20px;
+    @media (min-width: 768px) {
+      margin-bottom: 0;
+      order: 1;
+    }
+  }
+  .logo {
+    margin-bottom: 15px;
+    @media (min-width: 768px) {
+      margin-bottom: 0;
+      order: 0;
+      margin-right: 83px;
+    }
+    @media (min-width: 1280px) {
+      margin-right: 256px;
+    }
+    @media (min-width: 1680px) {
+        margin-right: 300px;
+      }
+  }
+  .copyright {
+    background-color: #111517;
+    .container {
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 72px;
+      color: $third-color;
+      @media (min-width: 768px) {
+        justify-content: start;
+      }
+    }
+    &__p {
+      @include font-settings(11px, 500, 1.5);
+      @media (min-width: 1280px) {
+        font-size: 15px;
+      }
+    }
+  }
+}

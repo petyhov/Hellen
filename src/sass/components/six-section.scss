@@ -1,0 +1,41 @@
+.six-section {
+  @extend %list-section;
+  h2 {
+    @media (min-width: 768px) {
+      text-align: center;
+      padding-top: 66px;
+    }
+    @media (min-width: 1280px) {
+      padding-top: 0;
+    }
+  }
+  .back-color {
+    height: 391px;
+    @media (min-width: 768px) {
+      height: 251px;
+    }
+    @media (min-width: 1280px) {
+      height: 416px;
+    }
+    @media (min-width: 1680px) {
+      height: 286px;
+    }
+  }
+  .list {
+    z-index: 1;
+    padding-bottom: 27px;
+    margin-bottom: 46px;
+    @media (min-width: 768px) {
+      padding-bottom: 31px;
+      margin-bottom: 64px;
+    }
+    @media (min-width: 1280px) {
+      padding-bottom: 50px;
+      margin-bottom: 91px;
+    }
+    @media (min-width: 1680px) {
+      padding-bottom: 77px;
+      margin-bottom: 122px;
+    }
+  }
+}
